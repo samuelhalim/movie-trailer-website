@@ -18,5 +18,7 @@ You can either download the ZIP file or clone this repository to your local.
 Open the text-based interface for your operating system (e.g. the terminal window in Linux, the command prompt in Windows).  
   
 Navigate to the project directory and type in the following command:  
-```python entertainment_center.py```  
+```
+python entertainment_center.py
+```
 Then, your browser will be opened and launch a new tab showing the movie trailer website.
