@@ -17,10 +17,10 @@ deadpool = media.Movie(
   "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_UY268_CR1,0,182,268_AL_.jpg",  # noqa
   "https://www.youtube.com/watch?v=9vN6DHB6bJc")
 
-capt_america = media.Movie(
-  "Captain America: Civil War",
-  "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",  # noqa
-  "https://www.youtube.com/watch?v=uVdV-lxRPFo")
+dark_knight = media.Movie(
+  "The Dark Knight",
+  "http://www.gstatic.com/tv/thumb/movieposters/173378/p173378_p_v8_au.jpg",
+  "https://www.youtube.com/watch?v=EXeTwQWrcwY")
 
 avengers = media.Movie(
   "Avengers: Age of Ultron",
@@ -33,12 +33,12 @@ logan = media.Movie(
   "https://www.youtube.com/watch?v=RH3OxVFvTeg")
 
 # put them together into a list called movies
-movies = [x_men,
+movies = [dark_knight,
+          x_men,
           spiderman,
-          deadpool,
-          capt_america,
           avengers,
-          logan]
+          logan,
+          deadpool]
 
 # call fresh tomatoes function to generate html file of movie trailer webiste
 fresh_tomatoes.open_movies_page(movies)
