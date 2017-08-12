@@ -1,4 +1,4 @@
-# Project: Movie Trailer Website
+# Movie Trailer Website
 ## by Samuel Halim
 Movie Trailer Website, the first project of Udacity [Full Stack Web Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 
